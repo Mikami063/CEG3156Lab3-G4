@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="3156lab3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|3156lab3|datapathPipeline:inst|DataRam:DataRam0|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_cth1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|3156lab3|datapathPipeline:inst|InstructionMem:InstructionMem0|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_jlh1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,23 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY HazardDetectionUnit IS
+    PORT(
+        i_IdExMemRead:IN STD_LOGIC;
+        i_IfIdRegisterRt,i_IfIdRegisterRs,i_IdExRegisterRt:IN STD_LOGIC_VECTOR(4 downto 0);
+        o_IfIdWrite,o_PCWrite,o_muxControlSignal:OUT STD_LOGIC);
+END ENTITY;
+
+ARCHITECTURE rtl OF HazardDetectionUnit IS
+    SIGNAL int_stall: STD_LOGIC;
+BEGIN 
+
+    int_stall <= i_IdExMemRead and ((i_IdExRegisterRt xnor i_IfIdRegisterRs) or (i_IdExRegisterRt xnor i_IfIdRegisterRt));
+
+    o_IfIdWrite <= ;
+    o_PCWrite <= ;
+    o_muxControlSignal <=;
+    --first cycle output register hold signal
+    --second cycle output mux control output 0 signal
+
+END ARCHITECTURE;

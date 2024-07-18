@@ -1,0 +1,13 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY ByteComparator IS
+    PORT(
+        i_a,i_b:IN STD_LOGIC_VECTOR(7 downto 0);
+        o_equal:OUT STD_LOGIC);
+END ENTITY;
+
+ARCHITECTURE rtl OF ByteComparator IS
+BEGIN 
+    o_equal <= i_a xnor i_b;
+END ARCHITECTURE;
