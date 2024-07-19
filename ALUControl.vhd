@@ -1,3 +1,11 @@
+--------------------------------------------------------------------------------
+-- Title         : Any Bits ALU
+-- Author        : Qingyun Yang  <qyang063@uottawa.ca>
+-- Created       : 2024/06/27
+-- Last modified : 2024/06/27
+-------------------------------------------------------------------------------
+-- Description : Convert ALUOp signal and Function code to ALU Control signal
+--------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 

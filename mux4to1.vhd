@@ -1,3 +1,12 @@
+--------------------------------------------------------------------------------
+-- Title         : 4 bits to 1 bits mux
+-- Author        : Qingyun Yang  <qyang063@uottawa.ca>
+-- Created       : 2024/06/27
+-- Last modified : 2024/06/27
+-------------------------------------------------------------------------------
+-- Description : what you will expect from a mux, with any bit width from input
+-- (two inputs need to have same bit width)
+--------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 

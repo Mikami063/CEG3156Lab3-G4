@@ -1,3 +1,11 @@
+--------------------------------------------------------------------------------
+-- Title         : Control Path
+-- Author        : Qingyun Yang  <qyang063@uottawa.ca>
+-- Created       : 2024/07/14
+-- Last modified : 2024/07/14
+-------------------------------------------------------------------------------
+-- Description : The control module for pipeline processor
+--------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 

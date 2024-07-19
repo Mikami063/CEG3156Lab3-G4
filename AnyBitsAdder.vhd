@@ -1,3 +1,11 @@
+--------------------------------------------------------------------------------
+-- Title         : Any bits adder
+-- Author        : Qingyun Yang  <qyang063@uottawa.ca>
+-- Created       : 2024/06/27
+-- Last modified : 2024/06/27
+-------------------------------------------------------------------------------
+-- Description : what you will expect from a adder, default to 8 bits addition and subtraction, can be any bits
+--------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
 

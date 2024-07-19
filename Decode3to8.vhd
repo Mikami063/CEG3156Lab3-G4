@@ -1,3 +1,11 @@
+--------------------------------------------------------------------------------
+-- Title         : 3 bits to 8 bits decoder
+-- Author        : Qingyun Yang  <qyang063@uottawa.ca>
+-- Created       : 2024/06/27
+-- Last modified : 2024/06/27
+-------------------------------------------------------------------------------
+-- Description : what you will expect from a decoder, made from two smaller 2 to 4 decoder
+--------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
 

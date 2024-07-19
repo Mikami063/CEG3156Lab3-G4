@@ -1,3 +1,11 @@
+--------------------------------------------------------------------------------
+-- Title         : pipelined Proccesor
+-- Author        : Qingyun Yang  <qyang063@uottawa.ca>
+-- Created       : 2024/07/18
+-- Last modified : 2024/07/18
+-------------------------------------------------------------------------------
+-- Description : the pipeline processor top level entity
+--------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 

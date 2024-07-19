@@ -1,3 +1,12 @@
+--------------------------------------------------------------------------------
+-- Title         : Any Bits ALU
+-- Author        : Qingyun Yang  <qyang063@uottawa.ca>
+-- Created       : 2024/06/27
+-- Last modified : 2024/06/27
+-------------------------------------------------------------------------------
+-- Description : Do various ALU operations based on control signal input 
+-- 000: AND, 001: OR, 010: ADD, 110: SUB, 111:SLT
+--------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 

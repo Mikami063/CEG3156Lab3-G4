@@ -1,3 +1,13 @@
+--------------------------------------------------------------------------------
+-- Title         : Register File
+-- Author        : Qingyun Yang  <qyang063@uottawa.ca>
+-- Created       : 2024/06/27
+-- Last modified : 2024/06/27
+-------------------------------------------------------------------------------
+-- Description : what you will expect from a register file
+-- Read two data at the same time, can read and write in the same time
+-- always read don't need enable, use signal WriteReg to write(input data is i_Value)
+--------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
 

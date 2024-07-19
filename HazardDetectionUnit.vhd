@@ -1,3 +1,11 @@
+--------------------------------------------------------------------------------
+-- Title         : Hazard Detection Unit
+-- Author        : Qingyun Yang  <qyang063@uottawa.ca>
+-- Created       : 2024/07/14
+-- Last modified : 2024/07/14
+-------------------------------------------------------------------------------
+-- Description : Stall the pipeline based on equation derived from data hazard condition in lab report
+--------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 

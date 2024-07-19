@@ -5,7 +5,9 @@
 -- Last modified : 2024/07/12
 -------------------------------------------------------------------------------
 -- Description : 
---    The coding is killing me, so long, will change description after completion
+--    All the internal connections that made up the pipeline cpu
+--    Details about the internal signals in code comments
+--    See design file to understand the stuctural of internal connection and the content index for pipeline buffer
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
